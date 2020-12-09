@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+
+
+#wrap{
+    position: relative;
+
+}
+/*헤더*/
+#header{
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    padding: 67px 150px 0;
+    box-sizing: border-box;
+    font-weight: 200;
+}
+
+.hTop h1{
+    background: url(../images/common/logo.png)no-repeat;
+    width: 135px;
+    text-indent: -9999px;
+    margin-bottom: 29px;
+}
+.hTop h1 a{
+    display: block;
+}
+
+.hBottom{
+    padding: 40px 0;
+
+}
+.hBottom li{}
+.hBottom li a{
+    margin-right: 30px;
+}
+.hBottom .gnb{
+    float: left;
+}
+.hBottom .gnb li{
+    float: left;
+    
+}
+.hBottom li a{
+    font-size: 17px;;
+}
+
+.hBottom li:hover a{
+    font-weight: 500;
+}
+
+.hBottom .util{
+    float: right;
+
+   
+}
+.hBottom .util li{
+    float: left;
+}
+.login a{
+    color: #5d5c5c;
+}
+.hBottom .util li:last-child a{margin-right: 0;}
+
+.hBottom .util li a{}
+.hBottom .util li img{}
+
+/*푸터*/
+#footer{
+    background: #fffef2;
+    padding-top: 100px;
+}
+
+.fTop {
+    color: #928c8c;
+    padding: 0 90px 78px;
+
+}
+.mailSub{
+    float: left;
+} 
+.mailSub h4{
+    font-size: 14px;
+    font-weight: 500
+
+}
+.mailSub input{
+    width: 386px;
+    border: none;
+    border-bottom: 1px solid #b5b5b5;
+    background: none;
+    font-size: 24px;
+    font-size: 24px;
+    padding: 18px 1px 14px;
+}
+input::placeholder{
+    color:  #b2afaf;
+    font-weight: 200;
+    
+}
+.mailSub p{
+    width: 386px;
+    font-size: 14px;
+    font-weight: 100;
+    padding-top: 16px;
+    line-height: 24px;
+}
+
+
+.fMenu{
+    float: right;
+}
+.fMenu>li{
+    float: left;
+    margin-left: 60px;
+}
+
+.fMenu li h4{
+    font-size: 14px;
+    width: 300px;
+    border-bottom: 1px solid #b5b5b5;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    font-weight: 500
+}
+
+
+.fMenuList li a{
+    color: #928c8c;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 30px;
+}
+
+.fBottom{
+    background: #333433;
+    color: #858484;
+    font-weight: 100;
+    font-size: 13px;
+    padding: 20px 90px;
+    position: relative;
+    text-align: right;
+}
+
+.fInfoBtn{
+   display: inline-block;
+   text-align: right; 
+}
+.fInfoBtn div{
+    float: left;
+    width: 87px;
+    height: 28px;
+    border: 1px solid #858484;
+    margin-left: 12px;
+}
+
+.fInfoBtn a{
+    color: #858484;
+    font-size: 13px;
+    display: block;
+    line-height: 28px;
+    text-align: center;
+}
+.fInfoBtn div:hover {
+     background: rgba(0,0,0,0.6);    
+}
+.fComInfo{
+     text-align: right;
+}
+.fComInfo p span{
+    display: block;
+}
+
+.copy{
+    position: absolute;
+    bottom: 20px;
+}
